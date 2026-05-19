@@ -7,7 +7,7 @@ public static void main(String[] args) {
     //recorre los empleados
     for(int filas = 0; filas < 3; filas++){
     //mostrar empleado    
-    System.out.println("Empleado" + (filas + 1));
+    System.out.println("Empleado " + (filas + 1));
     //guarda el nombre
     empleados[filas][0] = teclado.nextLine();
     //guarda la edad
