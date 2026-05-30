@@ -14,7 +14,7 @@ public static void main(String[] args) {
     matriz[2][0] = "maria";
     matriz[2][1] = "1";
     matriz[2][2] = "WM";
-    System.out.println("Matriz cargada:");
+    System.out.println("Matriz :");
     //recorre las filas
     for(int filas = 0; filas < 3; filas++){
     //recorre las columnas
@@ -22,7 +22,7 @@ public static void main(String[] args) {
     //muestra las filas y columnas    
     System.out.print(" " + matriz[filas][columnas] );    
     }    
-    //salto de linea
+    
     System.out.println(" ");
     }    
   }  
